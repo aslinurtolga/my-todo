@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d9afd9;
+  /* background-image: url(https://media.giphy.com/media/l3vR5TwVdpJBTOb7y/giphy.gif); */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container {
+  width: 520px;
+  height: 482px;
+  background: url(https://media.giphy.com/media/MXQnyEQwBJ6eTj90L5/giphy-downsized-large.gif);
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.todoList {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+  background: #ffffff;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 385px;
+}
+.deleteTask {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background: #cbc1ff;
+  color: #ffffff;
+  outline: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  right: 20px;
+  border: none !important;
+}
+
+.deleteTask:hover{
+    background: white;
+  color: #cbc1ff;
+}
+
+.pText {
+  background: white;
+  text-transform: capitalize;
+}
+.inputvalue {
+  display: flex;
+  margin: -7px;
+  margin-bottom: 80px;
+}
+
+.inputVal {
+  width: 400px;
+  height: 48px;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: 2px solid #cbc1ff;
+}
+
+.btn {
+  width: 80px;
+  background: #cbc1ff;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline-style: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  cursor: pointer;
+  border: none !important;
+
+}
+
+.btn:hover {
+  background: white;
+  color: #cbc1ff;
+}
+
+.clearTask {
+  position: absolute;
+  bottom: 5px;
+  left: 25%;
+  background: #cbc1ff;
+  color: #ffffff;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  outline-style: none;
+  font-size: large;
+  border: none !important;
+
+}
+
+.clearTask:hover {
+  background: white;
+  color: #cbc1ff;
+}
+
+.myTodo {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+  background: #ebc7e880;
+  padding: 8px;
+  border-radius: 5px;
+  height: 50px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 400px;
+}
